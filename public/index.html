@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>JP Widget</title>
+  </head>
+  <body>
+    <div>
+      <h1>JP widget</h1>
+      <div>
+        <script>
+          (function(w) {
+            w.to = 'North+Greenwich';
+            w.url = 'https://tfl.gov.uk';
+            return w;
+          })((window.tfl = window.tfl || {}));
+        </script>
+        <script src="https://tfl.gov.uk/cdn/static/scripts/specific/widgets/jp-widget.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
